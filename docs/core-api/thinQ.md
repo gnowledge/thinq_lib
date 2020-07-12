@@ -38,7 +38,7 @@
     * args (Object): The object retrned from the thinq.thinQ.init function
 
     Returns:
-    * boolean: `true` if registration is sucessfull, `false` otherwise 
+    * String: The unique string to identify every user. Works as your contact number 
 
 - #### thinq.thinQ.addUser(id, name, args)
     > Add a user into your addressbook, so that you could refer to him not by their hash, but by human readable names that you enter

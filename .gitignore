@@ -110,3 +110,4 @@ ipfs/
 models/database.sqlite3
 src/test.js
 src/core/ipfs/*
+thinq/*

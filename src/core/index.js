@@ -94,7 +94,7 @@ async function register(init_info , args){
 
     stat = await args.node.add(JSON.stringify(init_info))
     user = await args.db.User.create({name:init_info.name , ipfs:info.id , bio:init_info.bio, publicKey:stats[0][0].hash.toString(), type:init_info.type , rating: '2.5' , filehash:stat[0].hash.toString()})
-    return true
+    return stat[0].path
 }
 
 async function addUser(id, name, args){

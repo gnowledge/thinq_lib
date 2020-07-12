@@ -11,6 +11,10 @@ Currently, the framework offers the following features:
 The framework is created as an implementation of [the Idea](https://github.com/gnowledge/thinq_lib/blob/master/docs/conceptNote.md)
 
 ## Using the framework as a developer
+You can install the leatest version on the package from the command line via 
+`npm install @gnowledge/thinq_lib`
+You can also install it by adding the following line to package.json
+`@gnowledge/thinq_lib: ^[version_number]`
 For a detailed explanation of all the functions and APIs exposed by the framework, please check out the documentation [here](https://github.com/gnowledge/thinq_lib/tree/master/docs/core-api)
 
 ## Contributing to the framework
@@ -22,10 +26,12 @@ To start contributing to the framework as a developer, refer the docs [here](htt
 - #### Version 0.2.0
     * [ ] Add an option to include meta-data and extra information with service requests
     * [ ] Allow a single Service Provider to provide multiple services if they like
+    * [ ] Add basic unit tests
 - #### Other Plans
     * [ ] Expand the framework to take advantage of all the features of the IPFS framework
     * [ ] Support multiple layers and levels of encryption so that the developer can choose the appropriate one based on the requirements of the specific application being developed.
     * [ ] The method for storing user ratings is currently pretty insecure, and a better way using blockchain should be implemented
+    * [ ] Add doc strings to the code so that new contributers find it easier to understand the code
 
 ## Examples
 To find examples on how to build applications using this framework, please refer to [this repository](https://github.com/gnowledge/ThinQ-Examples).

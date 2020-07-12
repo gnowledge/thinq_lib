@@ -4,7 +4,7 @@
   "description": "ThinQ-Lib is a framework built over the IPFS network. It provides a way to enable storing files in a distrbuted file system along with encryption to ensure data privacy. It also uses a Graph-based data digest format - GDF to represent data internally, and to maintain data integrity over UDP.",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --no-timeout"
   },
   "repository": {
     "type": "git",
@@ -15,14 +15,19 @@
   "bugs": {
     "url": "https://github.com/gnowledge/thinq_lib/issues"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "homepage": "https://github.com/gnowledge/thinq_lib#readme",
   "dependencies": {
+    "chai": "^4.2.0",
     "ipfs": "^0.40.0",
     "ipfs-pubsub-room": "^1.4.1",
     "md5": "^2.2.1",
+    "mocha": "^8.0.1",
     "openpgp": "^4.10.4",
     "sequelize": "^5.21.13",
+    "sinon": "^9.0.2",
     "sqlite3": "^4.2.0"
   }
 }
